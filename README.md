@@ -24,12 +24,14 @@ $ yarn start
 
 ## Connectivity Test
 
+Using [gRPCurl](https://github.com/fullstorydev/grpcurl)
+
 ```bash
 $ go get github.com/fullstorydev/grpcurl
 $ go install github.com/fullstorydev/grpcurl/cmd/grpcurl
 ```
 
-### rpc.RPC/GetChampion
+### `rpc.RPC/GetChampion`
 
 ```bash
 $ grpcurl -d '{"champion_id": 1}' -plaintext -proto ./rpc/rpc.proto -import-path ./protos 127.0.0.1:5000 rpc.Rpc/GetChampion
@@ -42,6 +44,8 @@ $ grpcurl -d '{"champion_id": 1}' -plaintext -proto ./rpc/rpc.proto -import-path
   }
 }
 ```
+
+### `rpc.RPC/ListChampions`
 
 ```bash
 grpcurl -plaintext -proto ./rpc/rpc.proto -import-path ./protos 127.0.0.1:5000 rpc.Rpc/ListChampions
@@ -68,6 +72,8 @@ grpcurl -plaintext -proto ./rpc/rpc.proto -import-path ./protos 127.0.0.1:5000 r
   ]
 }
 ```
+
+### `rpc.RPC/GetBattleField`
 
 ```bash
 $ grpcurl -plaintext -proto ./rpc/rpc.proto -import-path ./protos 127.0.0.1:5000 rpc.Rpc/GetBattleField
