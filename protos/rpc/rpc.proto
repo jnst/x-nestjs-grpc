@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+import "rpc/battle_field.proto";
+import "rpc/champion.proto";
+
+package rpc;
+
+service Rpc {
+  rpc GetChampion (GetChampionRequest) returns (champion.Champion);
+  rpc ListChampions (Empty) returns (ListChampionsResponse);
+  rpc GetBattleField (Empty) returns (battle_field.BattleField);
+}
+
+message Empty {}
+
+message GetChampionRequest {
+  int32 champion_id = 1;
+}
+
+message GetChampionResponse {
+  champion.Champion champion = 1;
+}
+
+message ListChampionsResponse {
+  repeated champion.Champion champions = 1;
+}

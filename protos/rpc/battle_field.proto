@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package battle_field;
+
+message BattleField {
+  int32  battle_field_id = 1;
+  string name            = 2;
+  string description     = 3;
+}

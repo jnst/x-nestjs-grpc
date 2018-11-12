@@ -17,8 +17,10 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@grpc/proto-loader": "^0.3.0",
     "@nestjs/common": "^5.4.0",
     "@nestjs/core": "^5.4.0",
+    "grpc": "^1.16.0",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.2.2",
     "typescript": "^3.0.1"
@@ -29,6 +31,8 @@
     "@types/jest": "^23.3.1",
     "@types/node": "^10.7.1",
     "@types/supertest": "^2.0.5",
+    "grpc-tools": "^1.6.6",
+    "grpc_tools_node_protoc_ts": "^2.4.0",
     "jest": "^23.5.0",
     "prettier": "^1.14.2",
     "supertest": "^3.1.0",

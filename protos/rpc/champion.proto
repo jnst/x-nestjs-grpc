@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package champion;
+
+message Champion {
+  enum ChampionType {
+    UNKNOWN  = 0;
+    MARKSMAN = 1;
+    MAGE     = 2;
+    ASSASSIN = 3;
+    TANK     = 4;
+    FIGHTER  = 5;
+    SUPPORT  = 6;
+  }
+  int32        champion_id = 1;
+  ChampionType type        = 2;
+  string       name        = 3;
+  string       message     = 4;
+}
