@@ -9,7 +9,7 @@ import GetChampionResponse = rpc.GetChampionResponse;
 import IEmpty = rpc.IEmpty;
 import ListChampionsResponse = rpc.ListChampionsResponse;
 
-@Controller('rpc')
+@Controller()
 export class RpcController {
   constructor(private readonly championService: ChampionService, private readonly battleFieldService: BattleFieldService) {}
 
