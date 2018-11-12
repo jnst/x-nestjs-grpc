@@ -55,6 +55,15 @@
     path-to-regexp "2.2.1"
     uuid "3.3.2"
 
+"@nestjs/microservices@^5.4.0":
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/@nestjs/microservices/-/microservices-5.4.0.tgz#5d12743e521a5b927409969c6f629d2d98e96ea8"
+  integrity sha512-IMF80CHbFwsqWnHjHBJ9gSGMU56tmQI7DKSRgx21I9ZkKvXtUtV2DWTkO1P+BgDIebk9wEI08C9XK1eYB91Oug==
+  dependencies:
+    iterare "0.0.8"
+    json-socket "^0.2.1"
+    optional "0.1.4"
+
 "@nestjs/testing@^5.1.0":
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-5.4.0.tgz#4728021fc4012243b4dd2ffb4228b59df7770235"
@@ -3034,6 +3043,11 @@ json-schema@0.2.3:
   resolved "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
   integrity sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM=
 
+json-socket@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/json-socket/-/json-socket-0.2.1.tgz#26e7ed8cc131f17aa0136c32068f473b5dbefb22"
+  integrity sha1-JuftjMEx8XqgE2wyBo9HO12++yI=
+
 json-stable-stringify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/json-stable-stringify/-/json-stable-stringify-1.0.1.tgz#9a759d39c5f2ff503fd5300646ed445f88c4f9af"
@@ -3971,7 +3985,7 @@ protobufjs@^5.0.3:
     glob "^7.0.5"
     yargs "^3.10.0"
 
-protobufjs@^6.8.6:
+protobufjs@^6.8.6, protobufjs@^6.8.8:
   version "6.8.8"
   resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-6.8.8.tgz#c8b4f1282fd7a90e6f5b109ed11c84af82908e7c"
   integrity sha512-AAmHtD5pXgZfi7GMpllpO3q1Xw1OYldr+dMUlAnffGTAhqkg72WdmSY71uKBF/JuyiKs8psYbtKrhi0ASCD8qw==

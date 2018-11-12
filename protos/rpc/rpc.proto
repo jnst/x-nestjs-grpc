@@ -6,9 +6,9 @@ import "rpc/champion.proto";
 package rpc;
 
 service Rpc {
-  rpc GetChampion (GetChampionRequest) returns (champion.Champion);
+  rpc GetChampion (GetChampionRequest) returns (GetChampionResponse);
   rpc ListChampions (Empty) returns (ListChampionsResponse);
-  rpc GetBattleField (Empty) returns (battle_field.BattleField);
+  rpc GetBattleField (Empty) returns (GetBattleFieldResponse);
 }
 
 message Empty {}
@@ -23,4 +23,8 @@ message GetChampionResponse {
 
 message ListChampionsResponse {
   repeated champion.Champion champions = 1;
+}
+
+message GetBattleFieldResponse {
+  battle_field.BattleField battle_field = 1;
 }
