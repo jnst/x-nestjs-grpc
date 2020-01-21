@@ -28,7 +28,7 @@
     lodash "^4.17.5"
     protobufjs "^6.8.6"
 
-"@nestjs/common@^5.4.0":
+"@nestjs/common@^5.7.4":
   version "5.7.4"
   resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-5.7.4.tgz#32eaf1de87449ab56af7e3a15b9060811150429a"
   integrity sha512-Fic27fW81cYdiGJn9KV1Ebz2jdyFCHSLb/jaU3ByiduP//CpZGkeZotA9bs8nEckSKigXTsGqiwXRFqvOSVRLQ==
@@ -39,7 +39,7 @@
     multer "1.3.0"
     uuid "3.3.2"
 
-"@nestjs/core@^5.4.0":
+"@nestjs/core@^5.7.4":
   version "5.7.4"
   resolved "https://registry.yarnpkg.com/@nestjs/core/-/core-5.7.4.tgz#f569d112d113e56a370dc563adec99a7224c7241"
   integrity sha512-SohKRH5N3PuRQkgJDUcv5ETs0gzBSjuo16TWe7wFgmGSd0/uLnCVOXxmeWYXwcwC6TWi5K0KKnxQ3NOn3YeXwQ==
@@ -55,7 +55,7 @@
     path-to-regexp "2.2.1"
     uuid "3.3.2"
 
-"@nestjs/microservices@^5.4.0":
+"@nestjs/microservices@^5.7.4":
   version "5.7.4"
   resolved "https://registry.yarnpkg.com/@nestjs/microservices/-/microservices-5.7.4.tgz#e1818e0cd5e71167b7170b0c5cc265d6ffd5fed9"
   integrity sha512-dEBOikFiVUhLJ8DidlkrKEtCq/+udgxMukLAgtZ+VWUZWiBt7+3fh+cjwdUR22f1S9g+DAVQuwMP06bhDrKlbA==
@@ -64,7 +64,7 @@
     json-socket "^0.2.1"
     optional "0.1.4"
 
-"@nestjs/testing@^5.1.0":
+"@nestjs/testing@^5.7.4":
   version "5.7.4"
   resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-5.7.4.tgz#418e993416bd0c1b27b3adf14cc7d59f4ff2a622"
   integrity sha512-3lIsTmkdkFJODxiMFtVmAIxCmXMnVcUU9fhHmzO20S3ERZ+hAFZDXuB3vTwFEiBzxva0fKZw6OnnqTlDyGNXaw==
@@ -3805,22 +3805,6 @@ node-notifier@^5.2.1:
     shellwords "^0.1.1"
     which "^1.3.0"
 
-node-pre-gyp@*, node-pre-gyp@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.14.0.tgz#9a0596533b877289bcad4e143982ca3d904ddc83"
-  integrity sha512-+CvDC7ZttU/sSt9rFjix/P05iS43qHCOOGzcr3Ry99bXG7VX953+vFyEuph/tfqoYu8dttBkE86JSKBO2OzcxA==
-  dependencies:
-    detect-libc "^1.0.2"
-    mkdirp "^0.5.1"
-    needle "^2.2.1"
-    nopt "^4.0.1"
-    npm-packlist "^1.1.6"
-    npmlog "^4.0.2"
-    rc "^1.2.7"
-    rimraf "^2.6.1"
-    semver "^5.3.0"
-    tar "^4.4.2"
-
 node-pre-gyp@^0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.12.0.tgz#39ba4bb1439da030295f899e3b520b7785766149"
@@ -3836,6 +3820,22 @@ node-pre-gyp@^0.12.0:
     rimraf "^2.6.1"
     semver "^5.3.0"
     tar "^4"
+
+node-pre-gyp@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.14.0.tgz#9a0596533b877289bcad4e143982ca3d904ddc83"
+  integrity sha512-+CvDC7ZttU/sSt9rFjix/P05iS43qHCOOGzcr3Ry99bXG7VX953+vFyEuph/tfqoYu8dttBkE86JSKBO2OzcxA==
+  dependencies:
+    detect-libc "^1.0.2"
+    mkdirp "^0.5.1"
+    needle "^2.2.1"
+    nopt "^4.0.1"
+    npm-packlist "^1.1.6"
+    npmlog "^4.0.2"
+    rc "^1.2.7"
+    rimraf "^2.6.1"
+    semver "^5.3.0"
+    tar "^4.4.2"
 
 nopt@^4.0.1:
   version "4.0.1"
